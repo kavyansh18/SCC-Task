@@ -1,4 +1,5 @@
 import logo from "../assets/logo.ico"
+import menu from "../assets/menu.svg"
 function Navbaar(){
     return(
         <div className=" bg-white fixed top-0 w-full z-10 py-2 px-2 flex justify-between items-center">
@@ -14,7 +15,7 @@ function Navbaar(){
                 <div className="flex justify-between items-center hover:text-gray-500 cursor-pointer">Subscribe</div>
                 <div className="text-white bg-black rounded-3xl md:px-6 py-2 hover:bg-red-600 border-[3 px] border-black md:pl-5 cursor-pointer">Play Now! 💀</div>
             </div>
-            <div className="md:hidden pr-4 cursor-pointer"><img src="src/assets/menu.svg" alt="" /></div>
+            <div className="md:hidden pr-4 cursor-pointer"><img src={menu} alt="" /></div>
         </div>
     )
 }
