@@ -1,7 +1,9 @@
+import cd from "../../assets/c4.gif"
+
 function Card4(){
     return(
         <div className="border-black border-solid border-[6px] rounded-2xl m-7 p-4 md:flex-row justify-center items-center flex flex-col gap-4 h-[680px] md:mx-[250px] md:h-[510px] mb-10"> 
-            <div className="w-[300px] md:w-[2000px]"><img src="src/assets/c4.gif" alt="" /></div>
+            <div className="w-[300px] md:w-[2000px]"><img src={cd} alt="" /></div>
             <div>
                 <div className="text-bold text-center mb-3 text-lg md:text-3xl md:text-start"><strong>Grab your lunchbox. It will be a long journey.</strong></div>
                 <div className="text-[15px] mb-4 md:text-[20px]">We are delighted you’re finally joining our adventure alongside Maya and Dallas. It all starts with a simple and nostalgic object: a lunchbox. A lunchbox? What for? Well, it’s gonna be a long journey!

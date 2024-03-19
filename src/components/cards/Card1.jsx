@@ -1,7 +1,8 @@
+import c1 from "../../assets/c1.png"
 function Card1(){
     return(
         <div className=" border-black border-solid border-[6px] rounded-2xl m-7 p-4 md:flex-row justify-center items-center flex flex-col gap-4 h-[680px] md:mx-[250px] md:h-[510px] mb-10"> 
-            <div className="w-[300px] md:w-[2000px] "><img src="src/assets/c1.png" alt="" /></div>
+            <div className="w-[300px] md:w-[2000px] "><img src={c1} alt="" /></div>
             <div>
                 <div className="text-bold text-center mb-3 text-lg md:text-3xl md:text-start"><strong>Wrestle. Wrestle. Wrestle!</strong></div>
                 <div className="text-[15px] mb-4 md:text-[20px]">Step into the arena with Wrestle, the latest game feature in Herokind. Pit your Humankind characters against a diverse array of monsters, from the ferocious Alligatornado to the cunning Nerdy Dragon. Strategize your moves and watch your characters grow in this turn-based adventure.</div>

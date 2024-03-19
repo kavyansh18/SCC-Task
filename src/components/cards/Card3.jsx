@@ -1,7 +1,8 @@
+import cc from "../../assets/c3.webp"
 function Card3(){
     return(
         <div className= "border-black border-solid border-[6px] rounded-2xl m-7 p-4 md:flex-row justify-center items-center flex flex-col gap-4 h-[680px] md:mx-[250px] md:h-[510px] mb-10"> 
-            <div className="w-[300px] md:w-[2000px]"><img src="src/assets/c3.webp" alt="" /></div>
+            <div className="w-[300px] md:w-[2000px]"><img src={cc} alt="" /></div>
             <div>
                 <div className="text-bold text-center mb-3 text-lg md:text-3xl md:text-start"><strong>
 Bring your ideas to life with the Humankind Fund</strong></div>
