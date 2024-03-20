@@ -14,6 +14,7 @@ import Design from './components/Design'
 import Human from './components/Human'
 import Tree from './components/Tree'
 import Discord from './components/Discord'
+import Footer from './components/Footer'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -32,6 +33,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Human />
       <Tree />
       <Discord />
+      <Footer />
     </>
   </React.StrictMode>,
 )
