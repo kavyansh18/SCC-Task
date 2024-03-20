@@ -5,7 +5,7 @@ import c2 from "../assets/ch2.png"
 function Human() {
   return (
     <>
-    <div className="bg-black text-white font-extrabold text-9xl text-center m-0 p-0 w-full tracking-wider">Stay Human</div>
+    <div className="bg-black text-white font-extrabold md:text-9xl text-center m-0 p-0 w-full tracking-wider text-6xl">Stay Human</div>
     <div className="relative">
       {/* Image div */}
       <div className="z-10 relative md:overflow-hidden md:h-[700px] bg-black ">
