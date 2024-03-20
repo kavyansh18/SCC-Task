@@ -6,7 +6,7 @@ function Art() {
     <div className="relative">
       {/* Image div */}
       <div className="z-10 relative border-4 ">
-        <img  src={bg2} alt="" className="block w-full h-[600px] md:h-[800px]" />
+        <img  src={bg2} alt="" className="block w-full h-[600px] md:h-[400px]" />
         {/* Centered text div */}
         <div className="absolute inset-0 flex justify-center items-center">
           <div className="bg-white m-6 rounded-3xl p-5 flex-col justify-center  items-center md:w-[1030px] h-[400px]">
