@@ -8,6 +8,8 @@ import Card2 from './components/cards/Card2'
 import Card3 from './components/cards/Card3'
 import Card4 from './components/cards/Card4'
 import Collectibles from './components/Collectibles'
+import Art from './components/Art'
+import Gif from './components/Gif'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -19,6 +21,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Card3 />
       <Card4 />
       <Collectibles />
+      <Art />
+      <Gif />
     </>
   </React.StrictMode>,
 )
