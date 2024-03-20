@@ -12,6 +12,7 @@ import Art from './components/Art'
 import Gif from './components/Gif'
 import Design from './components/Design'
 import Human from './components/Human'
+import Tree from './components/Tree'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -28,6 +29,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Gif />
       <Design />
       <Human />
+      <Tree />
     </>
   </React.StrictMode>,
 )
