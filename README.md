@@ -1,4 +1,4 @@
-##humankind
+## humankind
 
 # React + Vite
 
